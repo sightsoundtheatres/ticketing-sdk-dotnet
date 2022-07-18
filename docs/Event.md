@@ -1,0 +1,51 @@
+# SightSound.TicketingSDK.Model.Event
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**EventCode** | **string** |  | [optional] 
+**EventName** | **string** |  | [optional] 
+**ItemType** | **ItemType** |  | [optional] 
+**EventTimeMinutes** | **int** |  | [optional] 
+**Ticketed** | **bool** |  | [optional] 
+**TicketStyleCode** | **string** |  | [optional] 
+**LocationCode** | **string** |  | [optional] 
+**SeatingTemplateCode** | **string** |  | [optional] 
+**EventDisplayColor** | **string** |  | [optional] 
+**AllowOrderTix** | **bool** |  | [optional] 
+**InternetSeatsMinimumLimit** | **int** |  | [optional] 
+**EventStartDate** | **DateTime** |  | [optional] 
+**EventEndDate** | **DateTime** |  | [optional] 
+**Active** | **bool** |  | [optional] 
+**EventTypeDetailCode** | **string** |  | [optional] 
+**CompTicketsSeatsMin** | **int** |  | [optional] 
+**CompTicketsStartDate** | **DateTime** |  | [optional] 
+**TheaterLocation** | **LocationDescription** |  | [optional] 
+**EmpDiscDaysToShow** | **int** |  | [optional] 
+**EmpDiscPercent** | **decimal** |  | [optional] 
+**TaxCode** | **string** |  | [optional] 
+**ExternalBooking** | **bool** |  | [optional] 
+**ExternalBookingThreshold** | **int** |  | [optional] 
+**CompTicketsMax** | **int** |  | [optional] 
+**EmpDayTicketsMax** | **int** |  | [optional] 
+**PremierShow** | **bool** |  | [optional] 
+**Taxable** | **bool** |  | [optional] 
+**AllowGroup** | **bool** |  | [optional] 
+**EmpSeatsMin** | **int** |  | [optional] 
+**EmpShowMinutes** | **int** |  | [optional] 
+**EmpShowMinutesSeatsMin** | **int** |  | [optional] 
+**PartnerEvent** | **bool** |  | [optional] 
+**EnTaxCode** | **string** |  | [optional] 
+**EventLogoUrl** | **string** |  | [optional] 
+**TxnCharge** | **bool** |  | [optional] 
+**AllowGroupDisc** | **bool** |  | [optional] 
+**SortSequence** | **int** |  | [optional] 
+**Schedule** | [**List&lt;Schedule&gt;**](Schedule.md) |  | [optional] 
+**ShowTrackingDetails** | [**List&lt;ShowTrackingDetail&gt;**](ShowTrackingDetail.md) |  | [optional] 
+**Budget** | [**ShowBudget**](ShowBudget.md) |  | [optional] 
+**ZonedEventEndDateTime** | **DateTime** |  | [optional] 
+**ZonedEventStartDateTime** | **DateTime** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
